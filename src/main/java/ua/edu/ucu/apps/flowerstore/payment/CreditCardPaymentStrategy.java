@@ -11,6 +11,6 @@ public class CreditCardPaymentStrategy implements Payment {
     }
 
     public void pay(double price) {
-        System.out.println("Payed with " + price);
+        System.out.println("Payed with credit " + price);
     }
 }
