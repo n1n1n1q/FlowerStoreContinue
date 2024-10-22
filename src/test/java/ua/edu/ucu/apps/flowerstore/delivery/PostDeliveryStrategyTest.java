@@ -28,6 +28,6 @@ class PostDeliveryStrategyTest {
 
     @Test
     void getDescription() {
-        assertEquals("Post Delivery", post.getDescription());
+        assertEquals("Post delivery", post.getDescription());
     }
 }

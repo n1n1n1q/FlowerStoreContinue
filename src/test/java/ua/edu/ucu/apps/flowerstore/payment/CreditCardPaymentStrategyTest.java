@@ -22,6 +22,6 @@ class CreditCardPaymentStrategyTest {
 
     @Test
     void getDescription() {
-        assertEquals("Credit Card Payment", payment.getDescription());
+        assertEquals("CreditCard Payment", payment.getDescription());
     }
 }

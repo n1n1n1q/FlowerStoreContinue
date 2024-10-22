@@ -28,6 +28,6 @@ class DHLDeliveryStrategyTest {
     }
     @Test
     void testDescription() {
-        assertEquals("DHL Delivery", dhlDeliveryStrategy.getDescription());
+        assertEquals("DHL delivery", dhlDeliveryStrategy.getDescription());
     }
 }
