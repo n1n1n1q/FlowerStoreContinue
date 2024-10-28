@@ -7,9 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Setter @Getter @ToString @AllArgsConstructor
-@Entity
-@Table
+@Setter @Getter @ToString @AllArgsConstructor @Entity @Table
 public class Flower extends Item{
     @Id
     private Long id;
