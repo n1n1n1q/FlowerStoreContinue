@@ -7,5 +7,5 @@ import lombok.Setter;
 public abstract class Item {
     private double price;
     private String description;
-    
+    public abstract double getPrice();
 }
