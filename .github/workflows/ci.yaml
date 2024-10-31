@@ -10,8 +10,8 @@ jobs:
         image: postgres:latest
         env:
           POSTGRES_USER: "postgres"
-          POSTGRES_PASSWORD: "password"
-          POSTGRES_DB: "flowerstoredb"
+          POSTGRES_PASSWORD: "postgres"
+          POSTGRES_DB: "postgres"
         ports:
           - "5432:5432"
     steps:
