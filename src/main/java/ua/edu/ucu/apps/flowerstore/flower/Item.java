@@ -6,6 +6,9 @@ import lombok.Setter;
 @Getter @Setter
 public abstract class Item {
     private double price;
-    private String description;
+    String description;
     public abstract double getPrice();
+    public String getDescription() {
+        return description;
+    }
 }

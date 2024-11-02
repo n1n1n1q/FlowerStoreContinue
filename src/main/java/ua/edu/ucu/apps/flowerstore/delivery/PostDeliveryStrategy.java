@@ -13,4 +13,7 @@ public class PostDeliveryStrategy implements Delivery {
     public void deliver(List<Item> items){
         System.out.println("Delivering "+items.size()+" items via post delivery");
     }
+    public String getDescription() {
+        return description;
+    }
 }
